@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFF;
+    background-color: #34c3cba8;
     margin:0;
 
 }
@@ -201,6 +201,12 @@ a {
 .p {
 
     margin-top: 10px;
+}
+hr {
+    width: 90%;
+    
+    border: solid 4px #34c3cba8;
+    border-radius: 70%;
 }
 ul {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
