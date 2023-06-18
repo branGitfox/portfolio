@@ -25,7 +25,10 @@ button {
     padding: 7px;
     border-radius: 50%;
     background-color:#3E92CC ;
-    border: solid 1px #13293D;
+    border: solid 1px orangered;
+}
+button:hover{
+    background-color: orangered;
 }
 
 .facebook {
@@ -35,6 +38,7 @@ button {
 .facebook:hover{
 
     color:rgb(54, 50, 50);
+
 }
 .instagram {
     color:rgb(237, 7, 45);
@@ -59,6 +63,7 @@ p {
     border-radius: 20px;
     color: white;
 }
+
 .images{
     position: relative;
     left:600px;
@@ -90,18 +95,91 @@ img {
 }
 
  .etudes, .experiences , .atouts, .loisirs, .langages, .databases{
-
-   margin-left: 10px; 
-   width: 150px;
-   height: 150px;
+    padding: 10px;
+   margin-left: 6px; 
+   width: 130px;
+   height: 130px;
    background-color: #3E92CC;
+   border-radius:1px;
+   transition: 1s;
 
 }  
+ .databases:hover{
+    transition: 2s;
+    transform: scale(1.5,1.5);
+    box-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px aqua;
+}
+.etudes:hover{
+    transition: 2s;
+    transform: scale(1.5,1.5);
+    box-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px aqua;
+} 
+.experiences:hover{
+    transition: 2s;
+    transform: scale(1.5,1.5);
+    box-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px aqua;
+}
+.atouts:hover{
+    transition: 2s;
+    transform: scale(1.5,1.5);
+    box-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px aqua;
+}
+
+.loisirs:hover{
+    transition: 2s;
+    transform: scale(1.5,1.5);
+    box-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px aqua;
+}
+
+.langages:hover{
+    transition: 2s;
+    transform: scale(1.5,1.5);
+    box-shadow: 1px 1px 2px aqua, 0 0 25px aqua, 0 0 5px aqua;
+}
 
 .loisirs, .langages, .databases {
 
     margin-top:-215px
     
+}
+.m {
+
+    color:orangered;
+}
+h4 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 15px;
+    color: #fff;
+}
+.inf {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+}
+.infr {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    top:-30px;
+    left:-110px;
+}
+
+hr {
+    position: relative;
+    top:-20px;
+    left:-120px;
+    margin:0 auto;
+    width: 30px;
+    border: solid 1px orangered;
+}
+.lasth {
+    position: relative;
+    top:-60px;
+    text-align: center;
+    left: -123px;
+    font-size: 20px;
 }
 
 
