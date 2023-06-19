@@ -1,11 +1,186 @@
 * {
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color:#020305 ;
 
+}
+
+.container {
+    background-color:#040407;
+    width: 70%;
+    height: 85vh;
+    color:white;
+    margin:0 auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 0px rgb(102, 95, 95);
+    border-radius: 4.5px;
+    
+}
+h1 {
+    position: relative;
+    top:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aqua;
+    margin-left: 1.5%;
+    margin-bottom: 4%;
+    font-size: 25px;
+   
+}
+a {
+    position: relative;
+    left: 8px;
+    margin-left: 1%;
+
+}
+.fb {
+    text-decoration: none;
+    color: white;
+}
+
+.insta {
+    text-decoration: none;
+    color: rgb(209, 41, 69);
+}
+.git {
+    color: white;
+}
+.tik {
+
+    color: white;
+}
+svg {
+    width: 20px;
+    height: 20px;  
+}
+
+h2 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+    margin-top: 1%;
+ 
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+    color: rgba(255, 250, 250, 0.568);
+}
+
+.image {
+    width: 150px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 0px aqua;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 9.5px;
+}
+img {
+    width: 150px;
+    height:300px;
+    border-radius: 9px;
+    
+}
+
+.btn {
+    border: solid 1px aqua;
+    width: 100px;
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow:0px 0px 2px 0px aqua ;
+    margin: 3%;
+  
+
+}
+.bt {
+    color:aqua;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bt:hover{
+    color:white;
+    
+}
+
+.body {
+    box-sizing: border-box;
+   float: right;
+   width: 61%;
+   height: 80vh;
+   position: relative;
+   top:-95%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.lang , .bd, .exp  {
+    width: 30%;
+    height: 35%;
+    border: solid 1px  #07070A;
+    margin-left: 1%;
+    margin-top: 20%;
+    background-color: #07070A;
+    text-align: center;
+    transition: 1.5s;
+}
+.loisirs, .sport, .study {
+    width: 30%;
+    height: 35%;
+    border: solid 1px  #07070A;
+    margin-left: 1%;
+    background-color: #07070A;
+    text-align: center;
+    margin-top: -4%;
+    transition: 1.5s;
+
+}
+.b {
+    margin-top: 5%;
+    color: aqua;
+}
+h5 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    margin-bottom: 12%;
+}
+.cont {
+    font-size: 12px;
+}
+
+.loisirs:hover{
+    transition: 2s;
+    transform: scale(1.3, 1.3);
+    box-shadow: 0px 0px 10px 0px aqua;
+}
+.sport:hover{
+    transition: 2s;
+    transform: scale(1.3, 1.3);
+    box-shadow: 0px 0px 10px 0px aqua;
+}
+.study:hover{
+    transition: 2s;
+    transform: scale(1.3, 1.3);
+    box-shadow: 0px 0px 10px 0px aqua;
+}
+.exp:hover{
+    transition:2s;
+    transform:scale(1.3,1.3);
+    box-shadow: 0px 0px 10px 0px aqua;
+}
+.lang:hover{
+    transition: 2s;
+    transform: scale(1.3, 1.3);
+    box-shadow: 0px 0px 10px 0px aqua;
+}
+.bd:hover{
+    transition: 2s;
+    transform: scale(1.3, 1.3);
+    box-shadow: 0px 0px 10px 0px aqua;
 }
 
 
