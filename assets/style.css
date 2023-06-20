@@ -6,6 +6,7 @@
 
 body {
     background-color:#020305 ;
+    overflow: hidden;
 
 }
 
@@ -71,16 +72,16 @@ p {
 }
 
 .image {
-    width: 150px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     box-shadow: 0px 0px 10px 0px aqua;
     margin-left: 5%;
     margin-top: 2%;
     border-radius: 50%;
 }
 img {
-    width: 150px;
-    height:300px;
+    width: 250px;
+    height:250px;
     border-radius: 50%;
     
 }
@@ -92,7 +93,7 @@ img {
     border-radius: 10px;
     box-shadow:0px 0px 2px 0px aqua ;
     margin: 4%;
-    margin-left: 7%;
+    margin-left: 12%;
   
 
 }
